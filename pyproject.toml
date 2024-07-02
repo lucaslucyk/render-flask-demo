@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "render-flask-demo"
+version = "0.1.0"
+description = "a template to deploy a flask and postgresql project in render"
+authors = ["Lucas Lucyk <lucaslucyk@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.3"
+gunicorn = "^22.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
